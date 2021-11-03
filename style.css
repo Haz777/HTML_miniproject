@@ -1,0 +1,36 @@
+.column {
+    float: left;
+    width: 200px;
+    height: 300px;
+    border-radius: 25px;
+    border: 2px solid grey;
+    padding: 20px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h2,h3{
+    text-align: center;
+    font-style: italic;
+    color: white
+}
+
+#P1, #f1{
+    background-color: cadetblue;
+}
+#P2, #f2{
+    background-color: darkcyan;
+}
+#P3, #f3{
+    background-color: lightseagreen;
+}
+p{
+    color: white;
+}
